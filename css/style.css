@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #141625;;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+    align-items: center;
+}
+
+.container{
+    width: 80%;
+    /* border: 2px solid red; */
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.row{
+    /* border: 2px solid royalblue; */
+    font-size: 12px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
+    background-color: #1f213a;
+}
+
+.row .id{
+    font-weight: bold;
+}
+
+.row .price{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.row .status{
+    padding: 8px;
+    border-radius: 3px;
+    width: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row .circle{
+    margin-right: 6px;
+}
+
+.row .paid-circle{
+    color: green;
+}
+
+.row .pending-circle{
+    color: yellow;
+}
+
+.row .paid{
+    background-color: #35f73f27;
+}
+
+.row .pending{
+    background-color: #f4f73527;
+}
+
+.row .arrow{
+    color: #600bff;
+}
